@@ -1,0 +1,20 @@
+1 [projetinho] - Neste projeto Calculadora de tempo, crie uma pagina
+que consiga calcular a diferença entre duas datas( data + horário)
+fornecidas pelo usuário e mostre na tela o resultado. (incluindo HTML
++ CSS + PHP)
+Datafinal - DataInicial
+Extra:
+    1 - validação de datafinal maior que datainicial
+    2 - desaparecer(responsividade) com os campos que chegaram ao
+    valor zero + Javascript.
+
+2 [projetinho] - Neste projeto Crie uma pagina que faça uma contagem
+regressiva a partir de uma data no futuro fornecida pelo usuário.
+(incluindo HTML + CSS + PHP + JavaScript)
+Datafinal - presente
+Extra:
+    1 - validação de datafinal maior que a data atual.
+    2 - evitar valores de tempo negativos(finaliza a contagem com o valor
+    zero).
+    3 - Quando a contagem chegar a zero, mudar o conteudo da pagina
+

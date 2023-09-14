@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;    
+}
+h1{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 4em;
+}
+form{
+    text-align: center;
+    font-size: 2em;
+}
+#BotaoCalcular{
+    background-color: rgb(182, 200, 200);
+    border: none;
+    padding: 7px 50px;
+}
+
+/* Remover a borda do input */
+.input[type="datetime-local"] {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+/* Estilizar o input quando em foco (opcional) */
+.input[type="datetime-local"]:focus {
+    border: 2px solid #3498db;
+    border-radius: 5px;
+}
+
+.resultado {    
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.tempo {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 2px solid #1abc9c;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.dias {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.horas {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.minutos {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+.segundos {
+    background-color: #e74c3c;
+    color: #fff;
+    animation: leafFall 0.5s infinite alternate;
+}
+
+@keyframes leafFall {
+    from {
+        transform: translateY(-5px);
+    }
+    to {
+        transform: translateY(5px);
+    }
+}

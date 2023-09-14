@@ -1,0 +1,31 @@
+body {
+    background-image: url('hamburguer.png'); 
+    background-size: 200px 100px; 
+    /*background-size: cover;*/
+    background-color: rgba(123, 119, 119, 0.5); /* Cor com opacidade para apagamento */
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; /* Centralize verticalmente */
+    align-items: center; /* Centralize horizontalmente */
+    height: 100vh; /* Use a altura total da janela de visualização */
+    margin: 0; /* Remova as margens padrão do corpo */
+}
+
+.container {
+    text-align: center; /* Centralize o texto */
+    margin: 20px auto; /* Espaçamento externo automático na parte superior e inferior, centralizado horizontalmente */
+    max-width: 50%; /* Largura máxima do contêiner principal */
+}
+
+#realizar_pedidos, #consultar_pedidos {
+    border: 2px solid #333; /* Cor da borda */
+    padding: 15px; /* Espaçamento interno igual de todos os lados */
+    box-shadow: 5px 5px 10px #888; 
+    background-color: rgba(35, 35, 35, 0.8); /* Fundo com opacidade */
+    color: white;
+}
+
+
+
+
+

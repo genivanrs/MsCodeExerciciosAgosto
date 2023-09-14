@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #3498db, #1abc9c);
+    color: #000000;
+}
+
+header {
+    background-color: #51a8e1;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 12px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 1.50em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ecf0f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+#subtitulo{
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #000000;
+}
+
+/* Estilo dos comentários */
+#comentarios {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#comentarios h2 {
+    color: #333;
+}
+
+#comentarios form {
+    margin-top: 8px;
+}
+
+#comentarios label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#comentarios input[type="text"],
+#comentarios textarea {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#comentarios input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#comentarios input[type="submit"]:hover {
+    background-color: #1abc9c;
+}

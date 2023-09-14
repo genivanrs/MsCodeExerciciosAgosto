@@ -1,0 +1,35 @@
+1 - [Capture a torre] Escreva uma função que retorne verdadeiro se
+duas torres puderem atacar uma à outra e falso caso contrário. (obs:
+tabuleiro vazio, somente as duas torres jogando)
+Ex.: torreAtaca(["A8", "E8"]) ➞ true
+torreAtaca(["A1", "B2"]) ➞ false
+torreAtaca(["H4", "H3"]) ➞ true
+torreAtaca(["F5", "C8"]) ➞ false
+
+2 - [limpeza de lista] Crie uma função que limpe uma lista, removendo
+todos os itens duplicados dela e retorne com a lista limpa. (a ordem
+final dos números não importa)
+Ex.: LimpezaLista([1, 3, 3, 5, 5]) ➞ [1, 3, 5]
+limpezaLista([4, 4, 4, 4]) ➞ [4]
+limpezaLista([5, 7, 8, 9, 10, 15]) ➞ [5, 7, 8, 9, 10, 15]
+limpezaLista([3, 3, 3, 2, 1]) ➞ [1, 2, 3] ou [3, 2, 1]
+limpezaLista([3, 3, 3, 1, 1, 2, 4, 4]) ➞ [1, 2, 3, 4] ou [3, 1, 2, 4]
+
+3 - [Nomes em letra Maiúscula] - Crie uma função que receba uma
+lista de nomes e retorne uma outra lista em que apenas a primeira
+letra de cada nome seja maiúscula e o restante minúscula.
+Ex.: fmaiuscula(["mavis", "senaida", "letty"]) ➞ ["Mavis", "Senaida", "Lett
+y"]
+fmaiuscula(["samuel", "MABELLE", "letitia", "meridith"]) ➞ ["Samuel",
+"Mabelle", "Letitia", "Meridith"]
+fmaiuscula(["Slyvia", "Kristal", "Sharilyn", "Calista"]) ➞ ["Slyvia",
+"Kristal", "Sharilyn", "Calista"]
+fmaiuscula(["MaViS", "sENaida", "leTTy"]) ➞ ["Mavis", "Senaida", "Lett
+y"]
+
+4 [projetinho] - Neste projeto, criaremos um blog em que teremos uma
+pagina Titulo + artigo, onde as pessoas podem comentar em baixo da
+pagina. (incluindo HTML + CSS + PHP)
++-----+------- ------+
+| Nome| comentario |
++-----+--------------+
